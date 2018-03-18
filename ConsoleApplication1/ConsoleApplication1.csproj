@@ -48,6 +48,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="src\main\resources\application.properties" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="pom.xml" />
+    <Content Include="src\main\java\sample\atmosphere\ChatService.java" />
+    <Content Include="src\main\java\sample\atmosphere\Message.java" />
+    <Content Include="src\main\java\sample\atmosphere\SampleAtmosphereApplication.java" />
+    <Content Include="src\main\resources\static\home.html" />
+    <Content Include="src\main\resources\static\javascript\application.js" />
+    <Content Include="src\main\resources\static\javascript\jquery-1.9.0.js" />
+    <Content Include="src\test\java\sample\atmosphere\SampleAtmosphereApplicationTests.java" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
