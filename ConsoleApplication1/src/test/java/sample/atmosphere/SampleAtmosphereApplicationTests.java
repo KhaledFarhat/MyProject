@@ -83,9 +83,9 @@ public class SampleAtmosphereApplicationTests {
 
 		@Override
 		public void run(String... args) throws Exception {
-			logger.info("Waiting for response: latch=" + this.latch.getCount());
+			logger.info("Waiting for the response: latch=" + this.latch.getCount());
 			if (this.latch.await(10, TimeUnit.SECONDS)) {
-				logger.info("Got response: " + this.messagePayload.get());
+				logger.info("Got the response: " + this.messagePayload.get());
 			}
 			else {
 				logger.info("Response not received: latch=" + this.latch.getCount());
